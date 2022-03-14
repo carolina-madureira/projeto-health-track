@@ -1,0 +1,30 @@
+/* Estilização do conteúdo */
+.container, .container-fluid 
+header {
+  font-size: 3rem; font-weight: 500; line-height: 2; color: #646464; margin-bottom: 70px; margin-top: 70px;
+}
+h1 { 
+  font-size: 4rem; color: #646464; font-weight: 500; line-height: 3; background-color: #fbfbfb;
+}
+main {
+  font-size: 1rem; font-weight: 400; color: #646464; margin-bottom: 20px;
+}
+footer {
+  color: #646464; margin-bottom: 60px;
+}
+nav {
+color:#646464; background-color: #be9a78; width: 100%;
+} 
+form {
+margin-left: 40px; color: #646464; background-color: none; width: 30%;
+}
+body {
+background-image: url("background.jpeg"); background-repeat: no-repeat; background-size: cover;
+}
+@media screen and (max-width 480px){
+  body {
+    max width: 480px;
+    font-size: 1.0em;
+  
+  }
+}
